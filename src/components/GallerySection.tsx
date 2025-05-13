@@ -17,8 +17,8 @@ const galleryItems = [
   {
     id: 3,
     image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
-    title: "Candy Blue Custom",
-    description: "Custom candy blue with clear coat protection"
+    title: "Candy Orange Custom",
+    description: "Custom candy orange with clear coat protection"
   },
   {
     id: 4,
@@ -42,13 +42,13 @@ const galleryItems = [
 
 const GallerySection = () => {
   return (
-    <section id="gallery" className="py-24 bg-automotive-dark">
+    <section id="portfolio" className="py-24 bg-automotive-dark">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Our Work Gallery</h2>
-          <div className="w-20 h-1 bg-automotive-blue mx-auto mb-6"></div>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Our Portfolio</h2>
+          <div className="w-20 h-1 bg-automotive-orange mx-auto mb-6"></div>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Browse our portfolio of completed projects showcasing our expertise in automotive painting
+            While we believe our words speak volumes about our commitment, our portfolio truly showcases the artistry and skill that define Amazing G Automotive
           </p>
         </div>
 

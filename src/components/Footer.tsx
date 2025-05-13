@@ -9,20 +9,20 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <PaintBucket className="h-8 w-8 text-automotive-blue" />
+              <PaintBucket className="h-8 w-8 text-automotive-orange" />
               <span className="text-xl font-bold">
-                AutoFinish<span className="text-automotive-blue">Pro</span>
+                Amazing G <span className="text-automotive-orange">Automotive</span>
               </span>
             </div>
             <p className="text-gray-400 mb-6">
-              Premium automotive painting and refinishing services with a commitment to quality and customer satisfaction.
+              Premium automotive painting and refinishing services with a commitment to quality and customer satisfaction in Malaysia.
             </p>
             <div className="flex gap-4">
               {['facebook', 'twitter', 'instagram', 'youtube'].map(platform => (
                 <a
                   key={platform}
                   href="#"
-                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-automotive-blue transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-automotive-orange transition-colors"
                 >
                   <span className="sr-only">{platform}</span>
                   {/* This would be replaced with actual social icons */}
@@ -36,14 +36,16 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-800 pb-2">Services</h3>
             <ul className="space-y-2">
               {[
-                'Full Car Repainting',
+                'Full Vehicle Repainting',
                 'Custom Paint Jobs',
-                'Scratch & Dent Repair',
-                'Restoration Work',
-                'Fleet Services'
+                'Touch-Up & Spot Repairs',
+                'Panel Painting',
+                'Color Matching Expertise',
+                'Clear Coat Application',
+                'Polishing & Paint Correction'
               ].map(link => (
                 <li key={link}>
-                  <a href="#" className="text-gray-400 hover:text-automotive-blue transition-colors">
+                  <a href="#" className="text-gray-400 hover:text-automotive-orange transition-colors">
                     {link}
                   </a>
                 </li>
@@ -58,12 +60,12 @@ const Footer = () => {
                 'Home',
                 'About Us',
                 'Services',
-                'Gallery',
+                'Portfolio',
                 'Contact',
                 'Get a Quote'
               ].map(link => (
                 <li key={link}>
-                  <a href="#" className="text-gray-400 hover:text-automotive-blue transition-colors">
+                  <a href="#" className="text-gray-400 hover:text-automotive-orange transition-colors">
                     {link}
                   </a>
                 </li>
@@ -82,7 +84,7 @@ const Footer = () => {
                 placeholder="Your email address"
                 className="px-4 py-2 w-full text-sm text-gray-900 focus:outline-none"
               />
-              <button className="bg-automotive-blue hover:bg-automotive-blue/90 text-white px-4 py-2 text-sm">
+              <button className="bg-automotive-orange hover:bg-automotive-orange/90 text-white px-4 py-2 text-sm">
                 Subscribe
               </button>
             </form>
@@ -91,13 +93,13 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} AutoFinish Pro. All rights reserved.
+            © {new Date().getFullYear()} Amazing G Automotive. All rights reserved.
           </p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-automotive-blue transition-colors text-sm">
+            <a href="#" className="text-gray-400 hover:text-automotive-orange transition-colors text-sm">
               Privacy Policy
             </a>
-            <a href="#" className="text-gray-400 hover:text-automotive-blue transition-colors text-sm">
+            <a href="#" className="text-gray-400 hover:text-automotive-orange transition-colors text-sm">
               Terms of Service
             </a>
           </div>

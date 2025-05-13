@@ -70,6 +70,7 @@ export default {
 					'dark': '#222222',
 					'light': '#f8f9fa',
 					'gold': '#FFD700',
+					'orange': '#F97316', // Added orange color based on logo
 				}
 			},
 			borderRadius: {

@@ -29,19 +29,19 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <PaintBucket className={`h-8 w-8 ${scrolled ? 'text-automotive-blue' : 'text-white'}`} />
+          <PaintBucket className={`h-8 w-8 ${scrolled ? 'text-automotive-orange' : 'text-white'}`} />
           <span className={`text-xl font-bold ${scrolled ? 'text-automotive-dark' : 'text-white'}`}>
-            AutoFinish<span className="text-automotive-blue">Pro</span>
+            Amazing G <span className="text-automotive-orange">Automotive</span>
           </span>
         </a>
         
         <nav className="hidden md:block">
           <ul className="flex gap-8">
-            {['Home', 'Services', 'Gallery', 'About', 'Contact'].map((item) => (
+            {['Home', 'Services', 'Portfolio', 'About', 'Contact'].map((item) => (
               <li key={item}>
                 <a 
                   href={`#${item.toLowerCase()}`}
-                  className={`font-medium hover:text-automotive-blue transition-colors ${
+                  className={`font-medium hover:text-automotive-orange transition-colors ${
                     scrolled ? 'text-automotive-dark' : 'text-white'
                   }`}
                 >
@@ -53,7 +53,7 @@ const Navbar = () => {
         </nav>
 
         <Button 
-          className="hidden md:flex bg-automotive-blue hover:bg-automotive-blue/90 text-white"
+          className="hidden md:flex bg-automotive-orange hover:bg-automotive-orange/90 text-white"
         >
           Get a Quote
         </Button>

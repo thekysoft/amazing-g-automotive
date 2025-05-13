@@ -11,7 +11,7 @@ const ContactSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
-          <div className="w-20 h-1 bg-automotive-blue mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-automotive-orange mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Have questions about our services or want to schedule a consultation? 
             Reach out to us and we'll get back to you as soon as possible.
@@ -36,7 +36,7 @@ const ContactSection = () => {
               
               <div className="space-y-2">
                 <label className="text-sm font-medium">Phone Number</label>
-                <Input type="tel" placeholder="(123) 456-7890" />
+                <Input type="tel" placeholder="(+60) 12-345-6789" />
               </div>
               
               <div className="space-y-2">
@@ -49,7 +49,7 @@ const ContactSection = () => {
                 <Textarea placeholder="Tell us about your project or ask a question..." className="min-h-[120px]" />
               </div>
               
-              <Button type="submit" className="w-full bg-automotive-blue hover:bg-automotive-blue/90 text-white">
+              <Button type="submit" className="w-full bg-automotive-orange hover:bg-automotive-orange/90 text-white">
                 Send Message
               </Button>
             </form>
@@ -60,34 +60,35 @@ const ContactSection = () => {
             
             <div className="space-y-8">
               <div className="flex items-start">
-                <MapPin className="h-6 w-6 text-automotive-blue mr-4 mt-1" />
+                <MapPin className="h-6 w-6 text-automotive-orange mr-4 mt-1" />
                 <div>
                   <h4 className="font-semibold text-lg">Our Location</h4>
                   <p className="text-gray-600">
-                    123 Automotive Drive<br />
-                    Paintsville, CA 90210
+                    123 Jalan Automotive<br />
+                    Kuala Lumpur, 50000<br />
+                    Malaysia
                   </p>
                 </div>
               </div>
               
               <div className="flex items-start">
-                <Phone className="h-6 w-6 text-automotive-blue mr-4 mt-1" />
+                <Phone className="h-6 w-6 text-automotive-orange mr-4 mt-1" />
                 <div>
                   <h4 className="font-semibold text-lg">Phone</h4>
-                  <p className="text-gray-600">(555) 123-4567</p>
+                  <p className="text-gray-600">(+60) 12-345-6789</p>
                 </div>
               </div>
               
               <div className="flex items-start">
-                <Mail className="h-6 w-6 text-automotive-blue mr-4 mt-1" />
+                <Mail className="h-6 w-6 text-automotive-orange mr-4 mt-1" />
                 <div>
                   <h4 className="font-semibold text-lg">Email</h4>
-                  <p className="text-gray-600">info@autofinishpro.com</p>
+                  <p className="text-gray-600">info@amazinggauto.com</p>
                 </div>
               </div>
               
               <div className="flex items-start">
-                <Clock className="h-6 w-6 text-automotive-blue mr-4 mt-1" />
+                <Clock className="h-6 w-6 text-automotive-orange mr-4 mt-1" />
                 <div>
                   <h4 className="font-semibold text-lg">Business Hours</h4>
                   <p className="text-gray-600">

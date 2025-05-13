@@ -8,27 +8,22 @@ const AboutSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">About AutoFinish Pro</h2>
-            <div className="w-20 h-1 bg-automotive-blue mb-8"></div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">About Amazing G Automotive</h2>
+            <div className="w-20 h-1 bg-automotive-orange mb-8"></div>
             
             <p className="text-lg text-gray-700 mb-6">
-              With over 15 years of experience in automotive painting and refinishing, 
-              AutoFinish Pro has established itself as the premier destination for 
-              quality car painting services.
+              At Amazing G Automotive, we don't just paint cars; we breathe new life into them. As a proudly local Malaysian vehicle paint shop, we are driven by a deep passion for automotive aesthetics and an unwavering commitment to delivering top-tier workmanship that exceeds expectations.
             </p>
             
             <p className="text-lg text-gray-700 mb-6">
-              Our team of certified professionals uses only the highest quality materials 
-              and state-of-the-art techniques to deliver exceptional results that exceed 
-              our customers' expectations.
+              For us, every vehicle that enters our workshop is an opportunity to showcase our expertise and transform it into a masterpiece on wheels.
             </p>
             
             <p className="text-lg text-gray-700 mb-8">
-              From minor touch-ups to complete custom paint jobs, we approach every project 
-              with the same level of dedication and attention to detail.
+              We understand that your vehicle is more than just a mode of transport – it's an extension of your personality, a reflection of your style, and a significant investment. That's why at Amazing G Automotive, we treat every project with meticulous attention to detail, using only premium quality paints and materials, and employing skilled technicians who are true artisans in their craft.
             </p>
             
-            <Button className="bg-automotive-blue hover:bg-automotive-blue/90 text-white px-8 py-6 text-lg">
+            <Button className="bg-automotive-orange hover:bg-automotive-orange/90 text-white px-8 py-6 text-lg">
               Meet Our Team
             </Button>
           </div>
@@ -36,21 +31,21 @@ const AboutSection = () => {
           <div className="grid grid-cols-2 gap-6">
             <div className="space-y-6">
               <div className="bg-gray-200 rounded-lg p-6 hover:bg-gray-100 transition-colors">
-                <h3 className="text-4xl font-bold text-automotive-blue">15+</h3>
+                <h3 className="text-4xl font-bold text-automotive-orange">15+</h3>
                 <p className="text-gray-600">Years Experience</p>
               </div>
               <div className="bg-gray-200 rounded-lg p-6 hover:bg-gray-100 transition-colors">
-                <h3 className="text-4xl font-bold text-automotive-blue">5,000+</h3>
+                <h3 className="text-4xl font-bold text-automotive-orange">5,000+</h3>
                 <p className="text-gray-600">Cars Painted</p>
               </div>
             </div>
             <div className="space-y-6 mt-12">
               <div className="bg-gray-200 rounded-lg p-6 hover:bg-gray-100 transition-colors">
-                <h3 className="text-4xl font-bold text-automotive-blue">100%</h3>
+                <h3 className="text-4xl font-bold text-automotive-orange">100%</h3>
                 <p className="text-gray-600">Satisfaction</p>
               </div>
               <div className="bg-gray-200 rounded-lg p-6 hover:bg-gray-100 transition-colors">
-                <h3 className="text-4xl font-bold text-automotive-blue">10</h3>
+                <h3 className="text-4xl font-bold text-automotive-orange">10</h3>
                 <p className="text-gray-600">Expert Painters</p>
               </div>
             </div>
@@ -66,11 +61,9 @@ const AboutSection = () => {
                 key={item} 
                 className="bg-gray-50 p-8 rounded-lg border border-gray-200 relative"
               >
-                <div className="text-4xl text-automotive-blue absolute -top-5 left-8">"</div>
+                <div className="text-4xl text-automotive-orange absolute -top-5 left-8">"</div>
                 <p className="text-gray-700 mb-6 pt-4">
-                  Absolutely amazing work! The team at AutoFinish Pro transformed my car 
-                  with their incredible attention to detail and craftsmanship. The paint job 
-                  looks better than factory finish.
+                  Amazing G Automotive completely transformed my car! The attention to detail and the quality of work is exceptional. My car looks better than when it was new.
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>

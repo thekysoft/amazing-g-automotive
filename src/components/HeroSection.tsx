@@ -17,15 +17,15 @@ const HeroSection = () => {
       
       <div className="container relative z-20 mx-auto px-4 text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 animate-fade-in">
-          Premium Car Painting & Refinishing
+          Malaysian Premium Car Painting & Refinishing
         </h1>
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto animate-fade-in">
-          Transforming vehicles with expert craftsmanship and attention to detail
+          At Amazing G Automotive, we don't just paint cars; we breathe new life into them
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-fade-in">
           <Button 
-            className="bg-automotive-blue hover:bg-automotive-blue/90 text-white px-8 py-6 text-lg"
+            className="bg-automotive-orange hover:bg-automotive-orange/90 text-white px-8 py-6 text-lg"
           >
             Get a Free Quote
           </Button>
