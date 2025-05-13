@@ -11,8 +11,11 @@ const HeroSection = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-automotive-dark">
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60 z-10"></div>
       
-      {/* Background image with overlay - replacing with car painting related image */}
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1637258725039-85ce3df0232a')] bg-center bg-cover"></div>
+      {/* Background image with overlay - car painting related image */}
+      <div 
+        className="absolute inset-0 bg-center bg-cover"
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1637258725039-85ce3df0232a?auto=format&fit=crop&w=1920&q=80')" }}
+      ></div>
       
       <div className="container relative z-20 mx-auto px-4 text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 animate-fade-in">
