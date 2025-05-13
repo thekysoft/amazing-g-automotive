@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Button } from "@/components/ui/button";
 
 const AboutSection = () => {
   return (
@@ -22,10 +21,6 @@ const AboutSection = () => {
             <p className="text-lg text-gray-700 mb-8">
               We understand that your vehicle is more than just a mode of transport – it's an extension of your personality, a reflection of your style, and a significant investment. That's why at Amazing G Automotive, we treat every project with meticulous attention to detail, using only premium quality paints and materials, and employing skilled technicians who are true artisans in their craft.
             </p>
-            
-            <Button className="bg-automotive-orange hover:bg-automotive-orange/90 text-white px-8 py-6 text-lg">
-              Meet Our Team
-            </Button>
           </div>
           
           <div className="grid grid-cols-2 gap-6">

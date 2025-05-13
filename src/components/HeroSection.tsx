@@ -30,7 +30,7 @@ const HeroSection = () => {
           </Button>
           <Button 
             variant="outline" 
-            className="border-automotive-orange text-white hover:bg-white/10 px-8 py-6 text-lg border-2"
+            className="border-automotive-orange text-white hover:bg-white/10 px-8 py-6 text-lg border-2 bg-transparent"
             onClick={scrollToServices}
           >
             Our Services

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-automotive-dark text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <PaintBucket className="h-8 w-8 text-automotive-orange" />
@@ -71,23 +71,6 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-semibold mb-4 border-b border-gray-800 pb-2">Newsletter</h3>
-            <p className="text-gray-400 mb-4">
-              Subscribe to our newsletter for tips, news and special offers
-            </p>
-            <form className="flex">
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="px-4 py-2 w-full text-sm text-gray-900 focus:outline-none"
-              />
-              <button className="bg-automotive-orange hover:bg-automotive-orange/90 text-white px-4 py-2 text-sm">
-                Subscribe
-              </button>
-            </form>
           </div>
         </div>
 
