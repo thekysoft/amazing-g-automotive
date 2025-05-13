@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ChevronDown } from 'lucide-react';
 
 const HeroSection = () => {
   const scrollToServices = () => {
@@ -23,7 +22,7 @@ const HeroSection = () => {
           At Amazing G Automotive, we don't just paint cars; we breathe new life into them
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-fade-in">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
           <Button 
             className="bg-automotive-orange hover:bg-automotive-orange/90 text-white px-8 py-6 text-lg"
           >
@@ -36,12 +35,6 @@ const HeroSection = () => {
           >
             Our Services
           </Button>
-        </div>
-        
-        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <button onClick={scrollToServices} className="text-white p-2 rounded-full border border-white/30">
-            <ChevronDown className="h-6 w-6" />
-          </button>
         </div>
       </div>
     </section>
