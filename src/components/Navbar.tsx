@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { PaintBucket } from 'lucide-react';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -29,10 +28,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <PaintBucket className={`h-8 w-8 ${scrolled ? 'text-automotive-orange' : 'text-white'}`} />
-          <span className={`text-xl font-bold ${scrolled ? 'text-automotive-dark' : 'text-white'}`}>
-            Amazing G <span className="text-automotive-orange">Automotive</span>
-          </span>
+          <img 
+            src="/lovable-uploads/69fc23d7-4e1a-4b8f-942c-62a2c99ef2cb.png" 
+            alt="Amazing G Automotive Logo" 
+            className="h-12" 
+          />
         </a>
         
         <nav className="hidden md:block">
