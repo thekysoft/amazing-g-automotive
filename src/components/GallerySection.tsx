@@ -4,39 +4,39 @@ import React from 'react';
 const galleryItems = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
-    title: "Custom Metallic Red",
-    description: "Full exterior repaint with premium metallic finish"
+    image: "/lovable-uploads/e1198361-93ce-4f02-9e89-328fab4d317d.png",
+    title: "Custom White Volkswagen",
+    description: "Full exterior refinishing with premium white paint"
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    title: "Classic Car Restoration",
-    description: "Period-correct paint job on a vintage vehicle"
+    image: "/lovable-uploads/ef2be529-f84f-4241-8075-2262975d6f2e.png",
+    title: "BMW Performance White",
+    description: "Luxury white paint job with high-gloss finish"
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
-    title: "Candy Orange Custom",
-    description: "Custom candy orange with clear coat protection"
+    image: "/lovable-uploads/e1198361-93ce-4f02-9e89-328fab4d317d.png",
+    title: "Premium VW Restoration",
+    description: "Custom refinishing with protective clear coat"
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    title: "Matte Black Finish",
-    description: "Complete matte black wrap with accent details"
+    image: "/lovable-uploads/ef2be529-f84f-4241-8075-2262975d6f2e.png",
+    title: "BMW Interior Detailing",
+    description: "Comprehensive painting and detailing package"
   },
   {
     id: 5,
-    image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
-    title: "Pearl White Conversion",
-    description: "Color change with premium pearl white finish"
+    image: "/lovable-uploads/e1198361-93ce-4f02-9e89-328fab4d317d.png",
+    title: "Volkswagen Factory Finish",
+    description: "Original factory color match with premium quality"
   },
   {
     id: 6,
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    title: "Racing Stripes",
-    description: "Custom racing stripes and performance accents"
+    image: "/lovable-uploads/ef2be529-f84f-4241-8075-2262975d6f2e.png",
+    title: "BMW Sport Package",
+    description: "Performance finish with custom detailing"
   }
 ];
 
