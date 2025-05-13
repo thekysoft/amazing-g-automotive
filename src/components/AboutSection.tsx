@@ -51,31 +51,6 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
-        
-        <div className="mt-24">
-          <h3 className="text-2xl font-bold text-center mb-12">What Our Customers Say</h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
-              <div 
-                key={item} 
-                className="bg-gray-50 p-8 rounded-lg border border-gray-200 relative"
-              >
-                <div className="text-4xl text-automotive-orange absolute -top-5 left-8">"</div>
-                <p className="text-gray-700 mb-6 pt-4">
-                  Amazing G Automotive completely transformed my car! The attention to detail and the quality of work is exceptional. My car looks better than when it was new.
-                </p>
-                <div className="flex items-center">
-                  <div className="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>
-                  <div>
-                    <h4 className="font-semibold">John Smith</h4>
-                    <p className="text-sm text-gray-500">Satisfied Customer</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

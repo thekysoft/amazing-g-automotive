@@ -1,8 +1,7 @@
 
 import React from 'react';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Car, CarFront, PaintBucket, Paintbrush, Image, Check, Shield } from 'lucide-react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { PaintBucket, CarFront, Paintbrush, Image, Check, Shield, Car } from 'lucide-react';
 
 const services = [
   {
@@ -79,11 +78,6 @@ const ServicesSection = () => {
                   ))}
                 </ul>
               </CardContent>
-              <CardFooter className="pt-4 pb-8 flex justify-center">
-                <Button className="bg-automotive-orange hover:bg-automotive-orange/90 text-white">
-                  Learn More
-                </Button>
-              </CardFooter>
             </Card>
           ))}
         </div>
