@@ -25,6 +25,7 @@ const HeroSection = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
           <Button 
             className="bg-automotive-orange hover:bg-automotive-orange/90 text-white px-8 py-6 text-lg"
+            onClick={() => window.open('https://wa.link/mu0xb3', '_blank')}
           >
             Get a Free Quote
           </Button>

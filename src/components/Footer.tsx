@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { PaintBucket } from 'lucide-react';
+import { PaintBucket, Instagram, Tiktok } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -18,17 +18,24 @@ const Footer = () => {
               Premium automotive painting and refinishing services with a commitment to quality and customer satisfaction in Malaysia.
             </p>
             <div className="flex gap-4">
-              {['facebook', 'twitter', 'instagram', 'youtube'].map(platform => (
-                <a
-                  key={platform}
-                  href="#"
-                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-automotive-orange transition-colors"
-                >
-                  <span className="sr-only">{platform}</span>
-                  {/* This would be replaced with actual social icons */}
-                  <div className="w-5 h-5"></div>
-                </a>
-              ))}
+              <a
+                href="https://www.tiktok.com/@amazinggautomotive"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-automotive-orange transition-colors"
+              >
+                <Tiktok className="w-5 h-5" />
+                <span className="sr-only">TikTok</span>
+              </a>
+              <a
+                href="https://www.instagram.com/amazinggauto?igsh=MWExdzlpZGk1Y2Y0eQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-automotive-orange transition-colors"
+              >
+                <Instagram className="w-5 h-5" />
+                <span className="sr-only">Instagram</span>
+              </a>
             </div>
           </div>
 
