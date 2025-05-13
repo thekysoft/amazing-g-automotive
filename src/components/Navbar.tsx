@@ -31,7 +31,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/69fc23d7-4e1a-4b8f-942c-62a2c99ef2cb.png" 
             alt="Amazing G Automotive Logo" 
-            className="h-12" 
+            className="h-20" 
           />
         </a>
         
