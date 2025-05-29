@@ -1,39 +1,40 @@
+
 import React from 'react';
 
 const galleryItems = [
   {
     id: 1,
-    image: "/lovable-uploads/e1198361-93ce-4f02-9e89-328fab4d317d.png",
+    image: "/lovable-uploads/07c3dd1b-f6b4-4840-a241-66f1e76a22d5.png",
     title: "Premium White Finish",
     description: "Full exterior refinishing with premium white paint"
   },
   {
     id: 2,
-    image: "/lovable-uploads/ef2be529-f84f-4241-8075-2262975d6f2e.png",
+    image: "/lovable-uploads/c947d582-401c-4112-a687-a29b1a2259a8.png",
     title: "Performance White Coating",
     description: "Luxury white paint job with high-gloss finish"
   },
   {
     id: 3,
-    image: "/lovable-uploads/e1198361-93ce-4f02-9e89-328fab4d317d.png",
+    image: "/lovable-uploads/7a3851d4-349f-49b7-8611-5186ec4ca00c.png",
     title: "Custom Restoration",
     description: "Custom refinishing with protective clear coat"
   },
   {
     id: 4,
-    image: "/lovable-uploads/ef2be529-f84f-4241-8075-2262975d6f2e.png",
+    image: "/lovable-uploads/2b8eab95-9bb5-478a-b3ce-f5be14b487ac.png",
     title: "Interior & Exterior Detailing",
     description: "Comprehensive painting and detailing package"
   },
   {
     id: 5,
-    image: "/lovable-uploads/e1198361-93ce-4f02-9e89-328fab4d317d.png",
+    image: "/lovable-uploads/f800f46e-afa9-455a-bd90-ed537636dadd.png",
     title: "Factory Quality Finish",
     description: "Original factory color match with premium quality"
   },
   {
     id: 6,
-    image: "/lovable-uploads/ef2be529-f84f-4241-8075-2262975d6f2e.png",
+    image: "/lovable-uploads/c947d582-401c-4112-a687-a29b1a2259a8.png",
     title: "Sport Package Finish",
     description: "Performance finish with custom detailing"
   }
