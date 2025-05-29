@@ -1,41 +1,40 @@
-
 import React from 'react';
 
 const galleryItems = [
   {
     id: 1,
     image: "/lovable-uploads/e1198361-93ce-4f02-9e89-328fab4d317d.png",
-    title: "Custom White Volkswagen",
+    title: "Premium White Finish",
     description: "Full exterior refinishing with premium white paint"
   },
   {
     id: 2,
     image: "/lovable-uploads/ef2be529-f84f-4241-8075-2262975d6f2e.png",
-    title: "BMW Performance White",
+    title: "Performance White Coating",
     description: "Luxury white paint job with high-gloss finish"
   },
   {
     id: 3,
     image: "/lovable-uploads/e1198361-93ce-4f02-9e89-328fab4d317d.png",
-    title: "Premium VW Restoration",
+    title: "Custom Restoration",
     description: "Custom refinishing with protective clear coat"
   },
   {
     id: 4,
     image: "/lovable-uploads/ef2be529-f84f-4241-8075-2262975d6f2e.png",
-    title: "BMW Interior Detailing",
+    title: "Interior & Exterior Detailing",
     description: "Comprehensive painting and detailing package"
   },
   {
     id: 5,
     image: "/lovable-uploads/e1198361-93ce-4f02-9e89-328fab4d317d.png",
-    title: "Volkswagen Factory Finish",
+    title: "Factory Quality Finish",
     description: "Original factory color match with premium quality"
   },
   {
     id: 6,
     image: "/lovable-uploads/ef2be529-f84f-4241-8075-2262975d6f2e.png",
-    title: "BMW Sport Package",
+    title: "Sport Package Finish",
     description: "Performance finish with custom detailing"
   }
 ];
